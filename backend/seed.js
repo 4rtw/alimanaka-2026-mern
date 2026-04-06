@@ -12,10 +12,7 @@ const jsonPath = path.join(__dirname, 'alimanaka_extracted.json');
 
 async function seedData() {
   try {
-    await mongoose.connect(MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect(MONGODB_URI);
     console.log('Connected to MongoDB for seeding...');
 
     const data = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));

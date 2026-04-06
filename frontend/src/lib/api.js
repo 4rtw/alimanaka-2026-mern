@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { API_TIMEOUT_MS } from './constants';
 
+// In standalone output, process.env is available at runtime
 const API_URL = process.env.API_URL || 'https://alimanaka.chantilly-shaula.ts.net:8443/api';
 
 const apiClient = axios.create({

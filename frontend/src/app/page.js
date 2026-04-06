@@ -3,13 +3,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import {
   Container, Typography, Box, Tabs, Tab, Grid,
-  Paper, CircularProgress, Alert, Button, Divider, IconButton
+  Paper, CircularProgress, Alert, Button, Divider
 } from '@mui/material';
-import {
-  LightMode as LightIcon,
-  DarkMode as DarkIcon,
-  EventNote as CalendarIcon
-} from '@mui/icons-material';
+import { EventNote as CalendarIcon } from '@mui/icons-material';
 import { getEvents } from '../lib/api';
 import EventCard from './components/EventCard';
 import { MALAGASY_MONTHS, API_MONTHS, SCROLL_DELAY_MS } from '../lib/constants';
@@ -18,10 +14,11 @@ export default function Home() {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const today = new Date();
+  // Freeze today's date on mount — avoids midnight recompute issues
+  const [today] = useState(() => new Date());
   const initialMonth = today.getMonth();
   const [selectedMonth, setSelectedMonth] = useState(initialMonth);
-  const eventRefs = useRef({});
+  const eventRefs = useRef([]);
 
   const fetchData = useCallback(async (month) => {
     setLoading(true);
@@ -59,13 +56,16 @@ export default function Home() {
         }, SCROLL_DELAY_MS);
       }
     }
-  }, [events, selectedMonth, initialMonth]);
+  }, [events, selectedMonth, initialMonth, today]);
 
-  // Check if an event falls on today
+  // Check if an event falls on today — handles multi-day ranges
   const isEventToday = (event) => {
     if (selectedMonth !== initialMonth) return false;
-    const eventDay = parseInt(event.date.split(/[–-]/)[0]);
-    return eventDay === today.getDate();
+    const parts = event.date.split(/[–-]/);
+    const startDay = parseInt(parts[0]);
+    const endDay = parts.length > 1 ? parseInt(parts[parts.length - 1]) : startDay;
+    const currentDay = today.getDate();
+    return currentDay >= startDay && currentDay <= endDay;
   };
 
   const handleRetry = () => {
@@ -98,6 +98,7 @@ export default function Home() {
             scrollButtons="auto"
             textColor="primary"
             indicatorColor="primary"
+            aria-label="Select month"
             sx={{ borderBottom: 1, borderColor: 'divider' }}
           >
             {MALAGASY_MONTHS.map((m, idx) => (
@@ -136,7 +137,7 @@ export default function Home() {
               <Grid item xs={12} sm={6} md={4} key={event._id || idx}>
                 <EventCard
                   event={event}
-                  cardRef={el => eventRefs.current[idx] = el}
+                  cardRef={el => { eventRefs.current[idx] = el; }}
                   isToday={isEventToday(event)}
                 />
               </Grid>
@@ -151,7 +152,7 @@ export default function Home() {
             Alimanaka 2026 — Fiangonana Loterana Malagasy (FLM)
           </Typography>
           <Typography variant="caption" sx={{ display: 'block', mt: 1 }}>
-            Voalaza avy amin&apos;ny loharanom-baovao Notion • Fampiasana an-tsitrapo
+            Fampiasana an-tsitrapo ho an&apos;ny Fiangonana
           </Typography>
         </Box>
       </Container>

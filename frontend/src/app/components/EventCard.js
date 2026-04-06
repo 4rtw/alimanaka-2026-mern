@@ -20,10 +20,15 @@ export default function EventCard({ event, cardRef, isToday }) {
   const bgColor = colorInfo.bg;
   const borderColor = colorInfo.border;
   const colorLabel = colorInfo.label;
+  const cardId = `event-${event._id || event.date}`;
 
   return (
     <Card
       ref={cardRef}
+      id={cardId}
+      role="article"
+      aria-labelledby={`${cardId}-title`}
+      aria-label={`${event.title} - ${event.date} ${event.day}`}
       sx={{
         borderRadius: 3,
         boxShadow: isToday ? 6 : 3,
@@ -45,7 +50,7 @@ export default function EventCard({ event, cardRef, isToday }) {
             </Typography>
             {isToday && (
               <Chip
-                icon={<TodayIcon />}
+                icon={<TodayIcon titleAccess="Today" />}
                 label="ANIO"
                 size="small"
                 sx={{ bgcolor: DEFAULT_ACCENT, color: '#fff', fontWeight: 'bold' }}
@@ -55,7 +60,7 @@ export default function EventCard({ event, cardRef, isToday }) {
           <Box display="flex" gap={0.5}>
             {colorLabel && (
               <Chip
-                icon={<ColorIcon sx={{ color: borderColor }} />}
+                icon={<ColorIcon sx={{ color: borderColor }} titleAccess={`Liturgical color: ${colorLabel}`} />}
                 label={colorLabel}
                 size="small"
                 variant="outlined"
@@ -64,7 +69,7 @@ export default function EventCard({ event, cardRef, isToday }) {
             )}
             {event.fandraisana && (
               <Chip
-                icon={<CommunionIcon />}
+                icon={<CommunionIcon titleAccess="Holy Communion" />}
                 label="FANDRAISANA"
                 size="small"
                 color="primary"
@@ -73,13 +78,13 @@ export default function EventCard({ event, cardRef, isToday }) {
           </Box>
         </Box>
 
-        <Typography variant="h6" sx={{ mb: 1, fontStyle: 'italic', color: '#555' }}>
+        <Typography id={`${cardId}-title`} variant="h6" sx={{ mb: 1, fontStyle: 'italic', color: '#555' }}>
           {event.title}
         </Typography>
 
         {event.location && (
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 1, gap: 1, color: '#d32f2f' }}>
-            <LocationIcon fontSize="small" />
+            <LocationIcon fontSize="small" titleAccess="Location" />
             <Typography variant="body2" sx={{ fontWeight: 'bold' }}>
               {event.location}
             </Typography>
@@ -90,7 +95,7 @@ export default function EventCard({ event, cardRef, isToday }) {
 
         {event.fidirana && event.fidirana.length > 0 && (
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 1, gap: 1 }}>
-            <TimeIcon color="action" fontSize="small" />
+            <TimeIcon color="action" fontSize="small" titleAccess="Service time" />
             <Typography variant="body2" sx={{ fontWeight: 'bold' }}>
               Fidirana: {event.fidirana.join(', ')}
             </Typography>
@@ -103,11 +108,11 @@ export default function EventCard({ event, cardRef, isToday }) {
               variant="body2"
               sx={{ display: 'flex', alignItems: 'center', fontWeight: 'bold', gap: 1, mb: 0.5 }}
             >
-              <BibleIcon color="action" fontSize="small" /> Vakiteny:
+              <BibleIcon color="action" fontSize="small" titleAccess="Bible readings" /> Vakiteny:
             </Typography>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, pl: 3 }}>
               {event.vakiteny.map((v, i) => (
-                <Chip size="small" label={v} key={`${event._id}-vak-${i}`} variant="outlined" />
+                <Chip size="small" label={v} key={`${event._id || event.date}-vak-${i}`} variant="outlined" />
               ))}
             </Box>
           </Box>
@@ -119,7 +124,7 @@ export default function EventCard({ event, cardRef, isToday }) {
               variant="body2"
               sx={{ display: 'flex', alignItems: 'center', fontWeight: 'bold', gap: 1 }}
             >
-              <MoneyIcon color="action" fontSize="small" /> Rakitra:
+              <MoneyIcon color="action" fontSize="small" titleAccess="Offerings" /> Rakitra:
             </Typography>
             <Typography variant="body2" sx={{ pl: 3, fontStyle: 'italic' }}>
               {event.rakitra.join(', ')}
@@ -133,7 +138,7 @@ export default function EventCard({ event, cardRef, isToday }) {
               variant="body2"
               sx={{ display: 'flex', alignItems: 'center', fontWeight: 'bold', gap: 1 }}
             >
-              <DescriptionIcon color="action" fontSize="small" /> Fanamarihana:
+              <DescriptionIcon color="action" fontSize="small" titleAccess="Notes" /> Fanamarihana:
             </Typography>
             <Typography variant="body2" sx={{ pl: 3 }}>
               {event.description.join(' ')}

@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
-  env: {
-    API_URL: process.env.API_URL || 'https://alimanaka.chantilly-shaula.ts.net:8443/api',
-  },
+  // Don't bake API_URL at build time — use runtime process.env directly in api.js
 }
 
 module.exports = nextConfig

@@ -1,8 +1,7 @@
 const express = require('express');
-const { query } = require('express-validator');
+const { query, validationResult } = require('express-validator');
 const router = express.Router();
 const eventController = require('../controllers/eventController');
-const { validationResult } = require('express-validator');
 
 // Validation middleware
 const validate = (validations) => {
@@ -20,7 +19,7 @@ const validate = (validations) => {
   };
 };
 
-// More specific route first (Express matches exact paths before params)
+// Literal paths — order doesn't matter for exact matches, but keep specific first for clarity
 router.get('/events/months', eventController.getMonths);
 
 router.get('/events',
