@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   mongodb:
     image: mongo:latest
@@ -18,8 +16,6 @@ services:
       - MONGODB_URI=mongodb://mongodb:27017/alimanaka
     depends_on:
       - mongodb
-    volumes:
-      - /usr/src/app/node_modules
 
   frontend:
     build: ./frontend
@@ -30,8 +26,6 @@ services:
       - REACT_APP_API_URL=https://alimanaka.chantilly-shaula.ts.net:8443/api
     depends_on:
       - backend
-    volumes:
-      - /usr/src/app/node_modules
 
 volumes:
   mongodb_data_new:

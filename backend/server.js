@@ -1,13 +1,31 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 require('dotenv').config();
+
+const eventRoutes = require('./routes/eventRoutes');
+const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+// Security Middleware
+app.use(helmet());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || '*',
+  methods: ['GET'],
+  allowedHeaders: ['Content-Type']
+}));
 app.use(express.json());
+
+// Rate Limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+app.use('/api/', limiter);
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://mongodb:27017/alimanaka', {
@@ -17,30 +35,10 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://mongodb:27017/alimanaka',
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('MongoDB connection error:', err));
 
-const Event = require('./models/Event');
-
 // API Routes
-app.get('/api/events', async (req, res) => {
-  try {
-    const { month, year } = req.query;
-    let query = {};
-    if (year) query.year = parseInt(year);
-    if (month) query.month = month.toLowerCase();
-    
-    const events = await Event.find(query).sort({ month: 1, date: 1 });
-    res.json(events);
-  } catch (err) {
-    res.status(500).json({ message: err.message });
-  }
-});
+app.use('/api', eventRoutes);
 
-app.get('/api/events/months', async (req, res) => {
-  try {
-    const months = await Event.distinct('month');
-    res.json(months);
-  } catch (err) {
-    res.status(500).json({ message: err.message });
-  }
-});
+// Error Handling Middleware
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
