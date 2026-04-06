@@ -11,6 +11,10 @@ const lora = Lora({
 export const metadata = {
   title: 'Alimanaka 2026 - Fiangonana Loterana Malagasy',
   description: 'Kalendrie liturgique 2026 ny Fiangonana Loterana Malagasy (FLM)',
+  icons: {
+    icon: '/icon',
+    apple: '/apple-icon',
+  },
 }
 
 export default function RootLayout({ children }) {
