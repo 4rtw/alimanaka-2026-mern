@@ -4,6 +4,8 @@ A Dockerized full-stack MERN (MongoDB, Express, React, Node.js) application disp
 
 ## 🚀 Features
 
+- **Auto-scroll**: Automatically focus on today's event (or the next available) upon loading or switching months.
+- **Interactive UI**: Modern card layout with hover effects and responsive grid.
 - **Lithurgical Colors**: Card UI automatically updates colors based on the church season (white, green, red, purple, etc.).
 - **Material UI Interface**: Responsive design with specialized cards for liturgical events.
 - **Location Awareness**: Displays event locations (e.g., "Ankadinonndry Sakay", "Fit. Itaosy") with map pin icons.
