@@ -167,11 +167,11 @@
         ]
       },
       {
-        "date": "24",
-        "day": "Sabotsy",
-        "title": "@ 9 ora 🎄 Krismasy FDL/SP Fil. Ambohitsaina Fahazavana",
+        "date": "23–25",
+        "day": "",
+        "title": "📅 Isatelovolana Fit. Itaosy",
         "color": null,
-        "location": "Ambohitsaina Fahazavana",
+        "location": "Fit",
         "fidirana": [],
         "vakiteny": [],
         "rakitra": [],
@@ -179,11 +179,11 @@
         "description": []
       },
       {
-        "date": "23–25",
-        "day": "",
-        "title": "📅 Isatelovolana Fit. Itaosy",
+        "date": "24",
+        "day": "Sabotsy",
+        "title": "@ 9 ora 🎄 Krismasy FDL/SP Fil. Ambohitsaina Fahazavana",
         "color": null,
-        "location": "Fit",
+        "location": "Ambohitsaina Fahazavana",
         "fidirana": [],
         "vakiteny": [],
         "rakitra": [],
@@ -228,9 +228,7 @@
         "rakitra": [],
         "fandraisana": false,
         "description": []
-      }
-    ],
-    "february": [
+      },
       {
         "date": "31",
         "day": "",
@@ -242,7 +240,9 @@
         "rakitra": [],
         "fandraisana": false,
         "description": []
-      },
+      }
+    ],
+    "february": [
       {
         "date": "01",
         "day": "Alahady",
@@ -399,9 +399,7 @@
           "🎉 Fanokafana faha-25 taona SEFATELL",
           "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
         ]
-      }
-    ],
-    "march": [
+      },
       {
         "date": "28",
         "day": "",
@@ -413,7 +411,9 @@
         "rakitra": [],
         "fandraisana": false,
         "description": []
-      },
+      }
+    ],
+    "march": [
       {
         "date": "01",
         "day": "Alahady",
@@ -1422,9 +1422,7 @@
           "👥 Alahadin'ny FIPAVA",
           "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
         ]
-      }
-    ],
-    "august": [
+      },
       {
         "date": "27",
         "day": "",
@@ -1436,7 +1434,9 @@
         "rakitra": [],
         "fandraisana": false,
         "description": []
-      },
+      }
+    ],
+    "august": [
       {
         "date": "02",
         "day": "Alahady",

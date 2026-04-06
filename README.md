@@ -5,11 +5,13 @@ A Dockerized full-stack MERN (MongoDB, Express, React, Node.js) application disp
 ## 🚀 Features
 
 - **Auto-scroll**: Automatically focus on today's event (or the next available) upon loading or switching months.
+- **Today Indicator**: Highlights today's event card with a bold outline and "ANIO" badge.
 - **Interactive UI**: Modern card layout with hover effects and responsive grid.
-- **Lithurgical Colors**: Card UI automatically updates colors based on the church season (white, green, red, purple, etc.).
+- **Lithurgical Colors**: Card UI automatically updates colors based on the church season, with Malagasy labels (Fotsy, Maitso, Mena, Volomparasy, etc.).
+- **Malagasy Interface**: Month tabs display Malagasy names (Janoary, Febroary, Marsa, Aprily, Mey, Jona...).
 - **Material UI Interface**: Responsive design with specialized cards for liturgical events.
 - **Location Awareness**: Displays event locations (e.g., "Ankadinonndry Sakay", "Fit. Itaosy") with map pin icons.
-- **Detailed Metadata**: 
+- **Detailed Metadata**:
   - `fidirana`: Service times
   - `vakiteny`: Bible readings
   - `rakitra`: Specific offerings
@@ -18,7 +20,7 @@ A Dockerized full-stack MERN (MongoDB, Express, React, Node.js) application disp
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React, Material UI (MUI), Axios, Emotion.
+- **Frontend**: Next.js 14 (App Router), React, Material UI (MUI), Axios, Emotion.
 - **Backend**: Node.js, Express.
 - **Database**: MongoDB (Mongoose).
 - **Infrastructure**: Docker, Docker Compose, Tailscale.

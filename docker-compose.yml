@@ -1,11 +1,18 @@
 services:
   mongodb:
-    image: mongo:latest
+    image: mongo:7.0
     container_name: alimanaka-mongodb-new
     ports:
       - "27018:27017"
     volumes:
       - mongodb_data_new:/data/db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
 
   backend:
     build: ./backend
@@ -14,8 +21,18 @@ services:
       - "8005:5000"
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/alimanaka
+      - CORS_ORIGIN=https://alimanaka.chantilly-shaula.ts.net
+      - NODE_ENV=production
     depends_on:
-      - mongodb
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:5000/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
 
   frontend:
     build: ./frontend
@@ -23,9 +40,11 @@ services:
     ports:
       - "8004:3000"
     environment:
-      - REACT_APP_API_URL=https://alimanaka.chantilly-shaula.ts.net:8443/api
+      - API_URL=https://alimanaka.chantilly-shaula.ts.net:8443/api
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
 
 volumes:
   mongodb_data_new:

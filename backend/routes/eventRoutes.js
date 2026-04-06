@@ -20,6 +20,9 @@ const validate = (validations) => {
   };
 };
 
+// More specific route first (Express matches exact paths before params)
+router.get('/events/months', eventController.getMonths);
+
 router.get('/events',
   validate([
     query('year').optional().isInt().withMessage('Year must be an integer'),
@@ -27,7 +30,5 @@ router.get('/events',
   ]),
   eventController.getEvents
 );
-
-router.get('/events/months', eventController.getMonths);
 
 module.exports = router;

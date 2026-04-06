@@ -1,16 +1,16 @@
 import axios from 'axios';
+import { API_TIMEOUT_MS } from './constants';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://alimanaka.chantilly-shaula.ts.net:8443/api';
+const API_URL = process.env.API_URL || 'https://alimanaka.chantilly-shaula.ts.net:8443/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,
-  timeout: 10000,
+  timeout: API_TIMEOUT_MS,
   headers: {
     'Content-Type': 'application/json'
   }
 });
 
-// Interceptor for cleaner error handling if needed in the future
 apiClient.interceptors.response.use(
   (response) => response.data,
   (error) => {

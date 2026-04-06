@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
 
-const Event = require('./models/Event');
+const { Event } = require('./models/Event');
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://mongodb:27017/alimanaka';
 
