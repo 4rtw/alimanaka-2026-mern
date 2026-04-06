@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { API_TIMEOUT_MS } from './constants';
 
-// In standalone output, process.env is available at runtime
-const API_URL = process.env.API_URL || 'https://alimanaka.chantilly-shaula.ts.net:8443/api';
+// In standalone output, process.env is available at runtime.
+// Default points to local dev; override via API_URL env var or docker-compose.
+const API_URL = process.env.API_URL || 'http://localhost:8005/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,

@@ -1,9 +1,8 @@
 services:
   mongodb:
     image: mongo:7.0
-    container_name: alimanaka-mongodb-new
     volumes:
-      - mongodb_data_new:/data/db
+      - mongodb_data:/data/db
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
@@ -14,12 +13,11 @@ services:
 
   backend:
     build: ./backend
-    container_name: alimanaka-backend-new
     ports:
-      - "8005:5000"
+      - "${BACKEND_PORT:-8005}:5000"
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/alimanaka
-      - CORS_ORIGIN=https://alimanaka.chantilly-shaula.ts.net
+      - CORS_ORIGIN=${CORS_ORIGIN:-*}
       - NODE_ENV=production
     depends_on:
       mongodb:
@@ -34,11 +32,13 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: alimanaka-frontend-new
     ports:
-      - "8004:3000"
+      - "${FRONTEND_PORT:-8004}:3000"
     environment:
-      - API_URL=https://alimanaka.chantilly-shaula.ts.net:8443/api
+      - API_URL=${API_URL:-http://backend:5000/api}
+    depends_on:
+      backend:
+        condition: service_healthy
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000"]
@@ -48,4 +48,4 @@ services:
       start_period: 10s
 
 volumes:
-  mongodb_data_new:
+  mongodb_data:

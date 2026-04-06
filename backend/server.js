@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 app.use(helmet());
 app.use(morgan('combined'));
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://alimanaka.chantilly-shaula.ts.net',
+  origin: process.env.CORS_ORIGIN || '*',
   methods: ['GET'],
   allowedHeaders: ['Content-Type']
 }));
@@ -45,7 +45,7 @@ app.use('/api/', limiter);
 // MongoDB Connection (awaited before listening)
 async function startServer() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://mongodb:27017/alimanaka');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/alimanaka');
     console.log('Connected to MongoDB');
   } catch (err) {
     console.error('MongoDB connection error:', err);

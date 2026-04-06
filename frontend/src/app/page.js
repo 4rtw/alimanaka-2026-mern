@@ -8,7 +8,7 @@ import {
 import { EventNote as CalendarIcon } from '@mui/icons-material';
 import { getEvents } from '../lib/api';
 import EventCard from './components/EventCard';
-import { MALAGASY_MONTHS, API_MONTHS, SCROLL_DELAY_MS } from '../lib/constants';
+import { MALAGASY_MONTHS, API_MONTHS, SCROLL_DELAY_MS, LITURGICAL_YEAR } from '../lib/constants';
 
 export default function Home() {
   const [events, setEvents] = useState([]);
@@ -24,7 +24,7 @@ export default function Home() {
     setLoading(true);
     setError(null);
     try {
-      const data = await getEvents(2026, month);
+      const data = await getEvents(LITURGICAL_YEAR, month);
       setEvents(data);
     } catch (err) {
       setError('Tsy nahazo ny angon-drakitra avy amin\'ny mpizara.');
@@ -82,7 +82,7 @@ export default function Home() {
             variant="h3"
             sx={{ fontWeight: 'bold', color: '#e26f5a', textTransform: 'uppercase' }}
           >
-            Alimanaka 2026
+            Alimanaka {LITURGICAL_YEAR}
           </Typography>
         </Box>
         <Typography variant="subtitle1" align="center" sx={{ mb: 3, fontStyle: 'italic', color: 'text.secondary' }}>
@@ -149,7 +149,7 @@ export default function Home() {
         <Divider sx={{ my: 6 }} />
         <Box textAlign="center" sx={{ color: 'text.secondary', mb: 4 }}>
           <Typography variant="body2" sx={{ fontStyle: 'italic' }}>
-            Alimanaka 2026 — Fiangonana Loterana Malagasy (FLM)
+            Alimanaka {LITURGICAL_YEAR} — Fiangonana Loterana Malagasy (FLM)
           </Typography>
           <Typography variant="caption" sx={{ display: 'block', mt: 1 }}>
             Fampiasana an-tsitrapo ho an&apos;ny Fiangonana

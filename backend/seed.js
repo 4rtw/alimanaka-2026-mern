@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const { Event } = require('./models/Event');
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://mongodb:27017/alimanaka';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/alimanaka';
 
 // Adjusting path to local file in the same directory or project root
 const jsonPath = path.join(__dirname, 'alimanaka_extracted.json');

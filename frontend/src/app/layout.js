@@ -8,9 +8,11 @@ const lora = Lora({
   display: 'swap',
 });
 
+const YEAR = process.env.LITURGICAL_YEAR || new Date().getFullYear();
+
 export const metadata = {
-  title: 'Alimanaka 2026 - Fiangonana Loterana Malagasy',
-  description: 'Kalendrie liturgique 2026 ny Fiangonana Loterana Malagasy (FLM)',
+  title: `Alimanaka ${YEAR} - Fiangonana Loterana Malagasy`,
+  description: `Kalendrie liturgique ${YEAR} ny Fiangonana Loterana Malagasy (FLM)`,
   icons: {
     icon: '/icon',
     apple: '/apple-icon',

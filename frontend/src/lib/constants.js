@@ -24,3 +24,6 @@ export const LITURGICAL_COLORS = {
 export const DEFAULT_ACCENT = '#e26f5a';
 export const SCROLL_DELAY_MS = 500;
 export const API_TIMEOUT_MS = 10000;
+
+// Configurable liturgical year (default: current Gregorian year)
+export const LITURGICAL_YEAR = parseInt(process.env.LITURGICAL_YEAR) || new Date().getFullYear();
