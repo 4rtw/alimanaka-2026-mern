@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { API_TIMEOUT_MS } from './constants';
 
-// In standalone output, process.env is available at runtime.
-// Default points to local dev; override via API_URL env var or docker-compose.
-const API_URL = process.env.API_URL || 'http://localhost:8005/api';
+// Use relative URL — Next.js rewrites proxy /api/* to the backend.
+// The backend URL is configured in next.config.js rewrites.
+const API_URL = '/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,

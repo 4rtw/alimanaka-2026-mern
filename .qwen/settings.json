@@ -17,7 +17,11 @@
       "Bash(git rm *)",
       "Bash(file *)",
       "Bash(rm *)",
-      "Bash(sleep *)"
+      "Bash(sleep *)",
+      "Bash(docker compose ps)",
+      "Bash(docker compose logs *)",
+      "Bash(docker compose exec *)",
+      "Bash(mkdir *)"
     ]
   },
   "$version": 3

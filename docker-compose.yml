@@ -35,7 +35,7 @@ services:
     ports:
       - "${FRONTEND_PORT:-8004}:3000"
     environment:
-      - API_URL=${API_URL:-http://backend:5000/api}
+      - BACKEND_API_URL=http://backend:5000
     depends_on:
       backend:
         condition: service_healthy
