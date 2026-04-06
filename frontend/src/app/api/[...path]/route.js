@@ -22,8 +22,19 @@ async function proxyRequest(request, path) {
       method: request.method,
       headers: {
         'Content-Type': 'application/json',
+        'Accept': request.headers.get('Accept') || 'application/json',
       },
     });
+
+    // Guard against non-JSON responses (e.g., nginx 502 HTML page)
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      console.error('Backend returned non-JSON response:', contentType);
+      return NextResponse.json(
+        { error: 'Backend service unavailable' },
+        { status: 502 }
+      );
+    }
 
     const data = await response.json();
     return NextResponse.json(data, {

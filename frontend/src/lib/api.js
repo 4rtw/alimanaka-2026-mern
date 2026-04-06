@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { API_TIMEOUT_MS } from './constants';
 
-// Use relative URL — Next.js rewrites proxy /api/* to the backend.
-// The backend URL is configured in next.config.js rewrites.
+// All API requests use a relative URL (/api).
+// The Next.js route handler at /api/[...path]/route.js proxies
+// requests to the backend (configured via BACKEND_API_URL env var).
 const API_URL = '/api';
 
 const apiClient = axios.create({
@@ -17,7 +18,7 @@ apiClient.interceptors.response.use(
   (response) => response.data,
   (error) => {
     console.error('API call error:', error.response?.data || error.message);
-    return Promise.reject(error);
+    return Promise.reject(error.response?.data || error.message);
   }
 );
 
@@ -25,10 +26,6 @@ export const getEvents = (year, month) => {
   return apiClient.get('/events', {
     params: { year, month }
   });
-};
-
-export const getMonths = () => {
-  return apiClient.get('/events/months');
 };
 
 export default apiClient;

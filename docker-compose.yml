@@ -36,6 +36,7 @@ services:
       - "${FRONTEND_PORT:-8004}:3000"
     environment:
       - BACKEND_API_URL=http://backend:5000
+      - LITURGICAL_YEAR=${LITURGICAL_YEAR:-2026}
     depends_on:
       backend:
         condition: service_healthy

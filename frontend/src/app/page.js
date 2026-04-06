@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import {
   Container, Typography, Box, Tabs, Tab, Grid,
-  Paper, CircularProgress, Alert, Button, Divider
+  Paper, CircularProgress, Alert, Button, Divider, Skeleton, Card, CardContent
 } from '@mui/material';
 import { EventNote as CalendarIcon } from '@mui/icons-material';
 import { getEvents } from '../lib/api';
@@ -109,9 +109,22 @@ export default function Home() {
 
         {/* Loading */}
         {loading && (
-          <Box display="flex" justifyContent="center" py={10}>
-            <CircularProgress color="primary" />
-          </Box>
+          <Grid container spacing={3}>
+            {Array.from({ length: 6 }).map((_, i) => (
+              <Grid item xs={12} sm={6} md={4} key={i}>
+                <Card sx={{ borderRadius: 3, boxShadow: 3, height: '100%' }}>
+                  <CardContent>
+                    <Skeleton variant="text" width={120} height={40} sx={{ mb: 1 }} />
+                    <Skeleton variant="text" width="80%" height={32} sx={{ mb: 1 }} />
+                    <Skeleton variant="text" width="60%" sx={{ mb: 1 }} />
+                    <Skeleton variant="rectangular" height={8} sx={{ my: 2 }} />
+                    <Skeleton variant="text" width="70%" />
+                    <Skeleton variant="text" width="50%" />
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
         )}
 
         {/* Error */}

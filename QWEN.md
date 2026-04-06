@@ -1,29 +1,27 @@
-# Alimanaka 2026 - Liturgical Calendar (MERN)
+# Alimanaka — Liturgical Calendar (MERN)
 
 ## Project Overview
 
-A Dockerized full-stack MERN (MongoDB, Express, Next.js, Node.js) application that displays the 2026 liturgical calendar for the Malagasy Lutheran Church (FLM - Fiangonana Loterana Malagasy). The app provides an interactive calendar UI with liturgical season colors, event details (service times, Bible readings, offerings, communion indicators), and auto-scrolling to today's date.
+A Dockerized full-stack MERN (MongoDB, Express, Next.js, Node.js) application that displays the liturgical calendar for the Malagasy Lutheran Church (FLM - Fiangonana Loterana Malagasy). The app provides an interactive calendar UI with liturgical season colors, event details (service times, Bible readings, offerings, communion indicators), and auto-scrolling to today's date.
 
 ### Key Features
 - **Auto-scroll**: Automatically focuses on today's event (or next available) on load or month switch
 - **Today indicator**: Highlights today's event card with a distinctive border and "ANIO" badge
 - **Liturgical Colors**: Card UI dynamically reflects church season colors with Malagasy labels (Fotsy, Maitso, Mena, etc.)
-- **Malagasy UI**: Month tabs display Malagasy names (Janoary, Febroary, Marsa...), dates in Malagasy (Alahady, Alatsinainy...)
+- **Malagasy UI**: Month tabs display Malagasy names (Janoary, Febroary, Marsa...)
 - **Lora Font**: Loaded via `next/font/google` for optimal typography
-- **Material UI**: Responsive design with specialized event cards
-- **Location Awareness**: Displays event locations with map pin icons
-- **Detailed Metadata**: Service times (`fidirana`), Bible readings (`vakiteny`), offerings (`rakitra`), communion badges (`fandraisana`)
+- **API Proxy**: Next.js route handler proxies `/api/*` to the backend at runtime
 - **Error Boundary**: Graceful error handling with retry capability
-- **Tailscale Ready**: Pre-configured for secure Tailscale HTTPS endpoints
+- **Infrastructure-Agnostic**: Works locally or deployed anywhere via environment variables
 
 ## Tech Stack
 
 | Layer | Technologies |
 |-------|-------------|
 | **Frontend** | Next.js 14 (App Router), React 18, Material UI (MUI) 5, Axios, Emotion |
-| **Backend** | Node.js, Express 4, Mongoose 7, Morgan (logging) |
+| **Backend** | Node.js 20, Express 4, Mongoose 7, Morgan (logging) |
 | **Database** | MongoDB 7.0 |
-| **Infrastructure** | Docker, Docker Compose, Tailscale |
+| **Infrastructure** | Docker, Docker Compose |
 | **Security** | Helmet, CORS, express-rate-limit, express-validator |
 
 ## Project Structure
@@ -45,8 +43,12 @@ alimanaka-2026-mern/
 │   │   ├── app/
 │   │   │   ├── layout.js       # Root layout with Lora font + MUI theme
 │   │   │   ├── page.js         # Main calendar page (client component)
-│   │   │   └── components/
-│   │   │       └── EventCard.js  # Liturgical event card with today badge
+│   │   │   ├── error.js        # Route-level error boundary
+│   │   │   ├── icon.js         # Dynamic favicon (32x32 PNG)
+│   │   │   ├── apple-icon.js   # Apple touch icon (180x180 PNG)
+│   │   │   └── api/
+│   │   │       └── [...path]/
+│   │   │           └── route.js  # API proxy to backend
 │   │   ├── lib/
 │   │   │   ├── api.js          # Centralized Axios API client
 │   │   │   └── constants.js    # Malagasy months, liturgical colors, config
@@ -67,7 +69,7 @@ alimanaka-2026-mern/
 docker compose up -d --build
 
 # Seed the database with liturgical event data
-docker exec alimanaka-backend-new node seed.js
+docker compose exec backend node seed.js
 
 # Stop all services
 docker compose down
@@ -77,42 +79,27 @@ docker compose down
 
 ```bash
 cd backend
-
-# Install dependencies
 npm install
-
-# Run in development mode (with nodemon)
-npm run dev
-
-# Run in production mode
-npm start
+npm run dev    # development (nodemon)
+npm start      # production
 ```
 
 ### Frontend (Standalone)
 
 ```bash
 cd frontend
-
-# Install dependencies
 npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
+npm run dev    # development
+npm run build  # production build
+npm start      # production server
 ```
 
 ## Service Ports
 
-| Service | Host Port | Container Port |
-|---------|-----------|----------------|
-| Frontend | 8004 | 3000 |
-| Backend API | 8005 | 5000 |
-| MongoDB | 27018 | 27017 |
+| Service | Host Port (default) | Container Port |
+|---------|-------------------|----------------|
+| Frontend | 8004 (configurable via `FRONTEND_PORT`) | 3000 |
+| Backend API | 8005 (configurable via `BACKEND_PORT`) | 5000 |
 
 ## API Endpoints
 
@@ -156,28 +143,45 @@ Health check endpoint. Returns DB connection status, uptime, and timestamp.
 ## Environment Variables
 
 ### Backend
-- `MONGODB_URI` - MongoDB connection string (default: `mongodb://mongodb:27017/alimanaka`)
-- `CORS_ORIGIN` - Allowed CORS origin (default: Tailscale URL)
-- `PORT` - Server port (default: `5000`)
-- `NODE_ENV` - Environment mode
-- `RATE_LIMIT_WINDOW_MS` - Rate limit window (default: `900000`)
-- `RATE_LIMIT_MAX` - Max requests per window (default: `100`)
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MONGODB_URI` | `mongodb://localhost:27017/alimanaka` | MongoDB connection string |
+| `CORS_ORIGIN` | `*` | Allowed CORS origin |
+| `PORT` | `5000` | Server port |
+| `NODE_ENV` | `development` | Environment mode |
+| `RATE_LIMIT_WINDOW_MS` | `900000` | Rate limit window (15 min) |
+| `RATE_LIMIT_MAX` | `100` | Max requests per window |
 
 ### Frontend
-- `API_URL` - Backend API base URL (configured via docker-compose and next.config.js)
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `BACKEND_API_URL` | `http://localhost:8005` | Backend base URL (proxy route handler target) |
+| `LITURGICAL_YEAR` | *(current year)* | Liturgical year to display |
+
+### Docker Compose
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `FRONTEND_PORT` | `8004` | Frontend host port mapping |
+| `BACKEND_PORT` | `8005` | Backend host port mapping |
 
 ## Docker Health Checks
 
 All services include health checks and `restart: unless-stopped`:
 - **MongoDB**: `mongosh --eval "db.adminCommand('ping')"` every 10s
 - **Backend**: `wget --spider http://localhost:5000/api/health` every 10s
-- **Frontend**: Depends on backend healthy state
+- **Frontend**: `wget --spider http://localhost:3000` every 15s
 
-## Tailscale Configuration
+## API Proxy Architecture
 
-The application is pre-configured for Tailscale HTTPS access:
-- **Frontend**: `https://alimanaka.chantilly-shaula.ts.net/`
-- **Backend**: `https://alimanaka.chantilly-shaula.ts.net:8443/api`
+The frontend uses a Next.js App Router catch-all route handler (`src/app/api/[...path]/route.js`) to proxy all `/api/*` requests to the backend. This allows:
+
+1. The frontend uses relative URLs (`/api/events`) — no hardcoded backend URL in the client bundle
+2. The proxy resolves `BACKEND_API_URL` from the runtime environment (works in Docker, standalone, or cloud)
+3. Browsers never directly contact the backend — all traffic goes through the frontend
+
+```
+Browser → /api/events → Next.js route handler → BACKEND_API_URL/api/events → Backend
+```
 
 ## Data Source
 
@@ -189,8 +193,9 @@ Liturgical event data is parsed from a structured Notion page using a custom ext
 - Month tabs display Malagasy names (Janoary, Febroary, Marsa, Aprily, Mey, Jona, Jolay, Aogositra, Septambra, Oktobra, Novambra, Desambra)
 - Liturgical colors show Malagasy labels (Fotsy, Maitso, Mena, Volomparasy, etc.)
 - Backend API is read-only (GET endpoints only) with rate limiting and request logging (morgan)
-- MongoDB data persists via Docker volume (`mongodb_data_new`)
+- MongoDB data persists via Docker volume (`mongodb_data`)
 - The UI displays Malagasy language text throughout (titles, labels, error messages)
 - Frontend Dockerfile uses multi-stage build for optimized production image with standalone output
-- Backend uses Node.js 20-alpine (MongoDB 7.0)
+- Backend Dockerfile uses multi-stage build to minimize production image
 - Events are sorted chronologically using a custom `findChronological()` static method with proper month ordering
+- API responses include `Cache-Control` headers (24h with 7d stale-while-revalidate)
