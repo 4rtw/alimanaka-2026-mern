@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+mongodb-data/
+mongodb-data-new/
+.DS_Store

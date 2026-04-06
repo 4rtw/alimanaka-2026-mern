@@ -1,0 +1,2329 @@
+{
+  "2026": {
+    "january": [
+      {
+        "date": "01",
+        "day": "Alakamisy",
+        "title": "TAOM-BAOVAO",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa 55:1-9",
+          "Heb. 13:8-16",
+          "Lio. 13:6-9",
+          "Jao. 1:16-18"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🙏 Androm-bavaka ho an'ny FIFIL"
+        ]
+      },
+      {
+        "date": "03",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy KTLM FLM Ankadinonndry Sakay",
+        "color": null,
+        "location": "Ankadinonndry Sakay",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "04",
+        "day": "Alahady",
+        "title": "EPIFANIA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isaia 2:1-5",
+          "II Tim. 3:14-16",
+          "Mat. 12:15-21",
+          "Mat. 4:13-17"
+        ],
+        "rakitra": [
+          "FIFIL",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FIFIL",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "10",
+        "day": "Alarobia",
+        "title": "📋 Komity ny Fileovana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "11",
+        "day": "Alahady",
+        "title": "🎄 Krismasy KTLM/SP Faritra Atsinanana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "11",
+        "day": "Alahady",
+        "title": "I manaraka ny EPIFANIA",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 61:1-3",
+          "Heb. 2:11-16",
+          "Mar. 10:13-16",
+          "Jao. 7:14-18"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "FIFIL/SP"
+        ],
+        "fandraisana": false,
+        "description": [
+          "🎉 Fiarahabana ny afaka fanadinana ny Fid.1",
+          "🎉 Fiarahabana ny zokiolona ny Fid.2",
+          "👥 Alahadin'ny FIFIL/SP"
+        ]
+      },
+      {
+        "date": "17",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy FIFIL/SP FLM Betesda Ambohibaona na FLM 67 HA",
+        "color": null,
+        "location": "Betesda Ambohibaona na FLM",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "17",
+        "day": "Sabotsy",
+        "title": "🤝 Fifampiharabana Komity + Komity",
+        "color": null,
+        "location": "Komity",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "18",
+        "day": "Alahady",
+        "title": "II manaraka Epifania",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Deot. 18:15-19",
+          "Efes. 2:10-16",
+          "Lio. 19:1-10",
+          "Jao. 4:4-26"
+        ],
+        "rakitra": [
+          "F8",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F8"
+        ]
+      },
+      {
+        "date": "24",
+        "day": "Sabotsy",
+        "title": "@ 9 ora 🎄 Krismasy FDL/SP Fil. Ambohitsaina Fahazavana",
+        "color": null,
+        "location": "Ambohitsaina Fahazavana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "23–25",
+        "day": "",
+        "title": "📅 Isatelovolana Fit. Itaosy",
+        "color": null,
+        "location": "Fit",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "25",
+        "day": "Alahady",
+        "title": "III manaraka ny Epifania",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 33:6-9",
+          "Heb. 11:1-10",
+          "Mar. 1:21-35",
+          "Jao. 4:27-42"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "STPL"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny STPL",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "31",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy FSFLM/SP",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      }
+    ],
+    "february": [
+      {
+        "date": "31",
+        "day": "",
+        "title": "Jan — Sabotsy hariva 📋 Komiti-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "01",
+        "day": "Alahady",
+        "title": "IX alohan'ny Paska",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 1:4-10",
+          "I Kor. 3:7-15",
+          "Mat. 25:14-30",
+          "Mat. 19:27-30"
+        ],
+        "rakitra": [
+          "F5",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F5",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "07",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy FDFL.M/SP FLM Itaosy",
+        "color": null,
+        "location": "Itaosy",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "08",
+        "day": "Alahady",
+        "title": "VIII alohan'ny Paska",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 55:10-13",
+          "I Kor. 1:20-25",
+          "Mat. 9:36-10:7",
+          "Jao. 12:35-43"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "Baiboly sy FLF"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny Baiboly sy FLF",
+          "✨ Asa sy Fampahererezana"
+        ]
+      },
+      {
+        "date": "14",
+        "day": "Sabotsy",
+        "title": "🌳 Fambolen-kazo Ankazobe",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "14",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy VLM Fil. Ambohitsaina Fahazavana",
+        "color": null,
+        "location": "Ambohitsaina Fahazavana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "15",
+        "day": "Alahady",
+        "title": "VII alohan'ny PASKA",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 35:3-7",
+          "Efes. 5:25-27",
+          "Jao. 1:29-34",
+          "Lio. 18:31-43"
+        ],
+        "rakitra": [
+          "SKOTO",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FSFLM (Skoto)",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "19–22",
+        "day": "",
+        "title": "🏕️ Zaikakely",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "22",
+        "day": "Alahady",
+        "title": "VI alohan'ny PASKA",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Gen. 3:1-24",
+          "I Pet. 4:1-6",
+          "Lio. 10:17-20",
+          "Mat. 16:21-23"
+        ],
+        "rakitra": [
+          "Raharaha ankapobe",
+          "Asa samihafa",
+          "SF FLM/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny SFLM/SP",
+          "🎉 Fanokafana faha-25 taona SEFATELL",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "march": [
+      {
+        "date": "28",
+        "day": "",
+        "title": "Feb — Sabotsy 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "01",
+        "day": "Alahady",
+        "title": "V alohan'ny PASKA",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 45:20-25",
+          "Isa. 42:1-7",
+          "Mar. 9:17-29",
+          "Lio. 7:36-50"
+        ],
+        "rakitra": [
+          "F2",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F2",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "04",
+        "day": "Alarobia",
+        "title": "ALAROBIAN'NY LAVENONA",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6"
+        ],
+        "vakiteny": [
+          "Isa. 58:5-9a",
+          "Jao. 3:4-8",
+          "Mat. 6:16-18"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "06–08",
+        "day": "",
+        "title": "🏕️ Isataona Toby Andranotaratra",
+        "color": null,
+        "location": "Toby Andranotaratra",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "08",
+        "day": "Alahady",
+        "title": "IV alohan'ny PASKA",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "II Sam. 22:1-7",
+          "Apok. 2:1-7",
+          "Jao. 8:31-44",
+          "Lio. 4:31-37"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Fitandremana",
+          "SALT/RTF"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny SALT/RTF",
+          "✨ Asa sy Fampahererezana"
+        ]
+      },
+      {
+        "date": "15",
+        "day": "Alahady",
+        "title": "III alohan'ny PASKA",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 49:8-13",
+          "Sal. 84:1-4",
+          "Jao. 6:52-65",
+          "Jao. 6:24-36"
+        ],
+        "rakitra": [
+          "VLM",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny VLM",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "21",
+        "day": "Sabotsy",
+        "title": "@ 8 ora 📚 Fiofanan'ny Komity isan'ambaratonga Fil. Ambohiba",
+        "color": null,
+        "location": "Ambohiba",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "22",
+        "day": "Alahady",
+        "title": "II alohan'ny PASKA",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Gen. 12:1-3",
+          "Jer. 33:14-17",
+          "Lio. 1:46-55",
+          "Lio. 1:39-45"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "FFL/SFM"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny FFL/SFM"
+        ]
+      },
+      {
+        "date": "27–29",
+        "day": "",
+        "title": "📚 Fiofana Tselatra Mpampianatra SA, Ankatso",
+        "color": null,
+        "location": "Tselatra Mpampianatra SA",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "29",
+        "day": "",
+        "title": "Alahadin'ny Sampandrofia",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Zak. 9:9-10",
+          "Isa. 62:10-12",
+          "Jao. 12:20-33",
+          "Jao. 12:1-16"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "FANILO/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FANILO/SP",
+          "📅 Isandroavolana FLM Fidasiana",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "april": [
+      {
+        "date": "02",
+        "day": "Alakamisy",
+        "title": "Masina",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "6"
+        ],
+        "vakiteny": [
+          "Eks. 12:3-14",
+          "I Kor. 10:16-17",
+          "Jao. 13:1-15",
+          "Mat. 26:17-29"
+        ],
+        "rakitra": [
+          "Raharaha ankapobe",
+          "Asa samihafa"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🙏 Vavaka ho fahalalana tsara ny Sakramenta",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "03",
+        "day": "Zoma",
+        "title": "Masina",
+        "color": "black",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Isa. 50:6-9",
+          "Mat. 27:51-66",
+          "Lio. 22:39-23:46",
+          "Mat. 26:30-27:50"
+        ],
+        "rakitra": [
+          "Raharaha ankapobe",
+          "Asa samihafa"
+        ],
+        "fandraisana": false,
+        "description": [
+          "✝️ Fiderana sy Fankalazana ny Pasionan'i Jesosy Kristy",
+          "⏰ Fidirana iray: 6 ora hariva"
+        ]
+      },
+      {
+        "date": "04",
+        "day": "Sabotsy",
+        "title": "🧹 Fanadiovana faobe",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "05",
+        "day": "",
+        "title": "Alahadin'ny PASKA I",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 52:13-15",
+          "I Kor. 15:12-21",
+          "Mat. 28:1-8",
+          "Lio. 24:1-9"
+        ],
+        "rakitra": [
+          "Rakitra (Alitara):",
+          "Raki-bolafotsy",
+          "F4",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F4",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "06–12",
+        "day": "",
+        "title": "🏕️ Zaikakely KTLM Fil. Sakay",
+        "color": null,
+        "location": "Sakay",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "06",
+        "day": "Alatsinainy",
+        "title": "PASKA II",
+        "color": "white",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Hos. 13:14",
+          "II Kor. 5:14-21",
+          "Mat. 28:9-15",
+          "Jao. 20:11-18"
+        ],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": [
+          "🚶 Fitsangatsanganana ny Fiangonana"
+        ]
+      },
+      {
+        "date": "11",
+        "day": "Sabotsy",
+        "title": "📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "12",
+        "day": "Alahady",
+        "title": "I manaraka ny Paska",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Job. 19:25-27",
+          "Asa. 3:11-21",
+          "Lio. 24:36-43",
+          "Jao. 21:1-14"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "SHALOM/FFKM"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny SHALOM sy FFKM",
+          "✨ Asa sy fampaherezana"
+        ]
+      },
+      {
+        "date": "18",
+        "day": "Sabotsy",
+        "title": "📋 Komity ny Fileovana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "19",
+        "day": "Alahady",
+        "title": "II manaraka PASKA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Ezek. 34:11-16",
+          "I Pet. 5:1-4",
+          "Jao. 10:1-10",
+          "Jao. 21:15-25"
+        ],
+        "rakitra": [
+          "FDL",
+          "Raharaha ankapobeny",
+          "Asa samihafa"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FDL",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "24–26",
+        "day": "",
+        "title": "📅 Isa-telovolana Fit. Arivonimamo",
+        "color": null,
+        "location": "Fit",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "27",
+        "day": "",
+        "title": "Apr–02 May ⚔️ Tafika Masina Lehibe Mahavelona",
+        "color": null,
+        "location": "Lehibe Mahavelona",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "26",
+        "day": "Alahady",
+        "title": "III manaraka ny Paska",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Fit. 3:18-26",
+          "Heb. 4:14-16",
+          "Jao. 14:1-12",
+          "Jao. 17:1-8"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "FIKEVA SYNODA"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FIKEVA SYNODA",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "may": [
+      {
+        "date": "02",
+        "day": "Sabotsy",
+        "title": "hariva 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "03",
+        "day": "Alahady",
+        "title": "IV manaraka PASKA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 12:1-6",
+          "Heb. 5:1-10",
+          "Jao. 7:37-39",
+          "Jao. 17:9-17"
+        ],
+        "rakitra": [
+          "SALOMA",
+          "Asa samihafa",
+          "Raharaha ankapobe"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny SALOMA",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "07–10",
+        "day": "",
+        "title": "🏕️ Zaikakely FD/SP Fil. Tsiroanomandidy",
+        "color": null,
+        "location": "Tsiroanomandidy",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "10",
+        "day": "Alahady",
+        "title": "V manaraka ny PASKA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 29:11-14",
+          "Heb. 7:18-25",
+          "Mat. 6:5-13",
+          "Jao. 17:18-23"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "FFPM/FOIBE FLM"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny FFPM sy FOIBE FLM",
+          "✨ Asa sy fampaherezana"
+        ]
+      },
+      {
+        "date": "14",
+        "day": "Alakamisy",
+        "title": "ANDRO NIAKARANA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6"
+        ],
+        "vakiteny": [
+          "Isa. 57:15",
+          "Sal. 110:1-7",
+          "Lio. 24:44-53",
+          "Jao. 17:24-26"
+        ],
+        "rakitra": [],
+        "fandraisana": true,
+        "description": [
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "15–17",
+        "day": "",
+        "title": "🏕️ Isataonan'ny Toby Mahasoa Miarinarivo",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "17",
+        "day": "Alahady",
+        "title": "VI manaraka ny Paska",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Ezek. 36:25-27",
+          "Asa. 1:12-14",
+          "Lio. 12:4-12",
+          "Lio. 11:5-13"
+        ],
+        "rakitra": [
+          "TMM",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny TMM",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "22–25",
+        "day": "",
+        "title": "🏕️ Zaikakely FDL/SP Fil. Tsiroanomandidy",
+        "color": null,
+        "location": "Tsiroanomandidy",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "24",
+        "day": "Alahady",
+        "title": "PENTEKOSTA I",
+        "color": "red",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Joela 3:1-5",
+          "Efes. 1:1-22",
+          "Jao. 14:15-21",
+          "Jao. 15:1-11"
+        ],
+        "rakitra": [
+          "Rakitra (Alitara):",
+          "Raki-bolafotsy",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "25",
+        "day": "Alatsinainy",
+        "title": "ANDRO PENTEKOSTA II",
+        "color": "red",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Jer. 31:31-36",
+          "I Kor. 12:12-20",
+          "Jao. 12:44-50",
+          "Jao. 6:44-51"
+        ],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": [
+          "⏰ Fidirana iray ihany: 6:30 maraina"
+        ]
+      },
+      {
+        "date": "26–30",
+        "day": "",
+        "title": "🏕️ Isa-taona Toby Soatanana Ilafy",
+        "color": null,
+        "location": "Toby Soatanana Ilafy",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "31",
+        "day": "",
+        "title": "Alahadin'ny Trinite",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Ezek. 18:30-32",
+          "I Jao. 3:1-10",
+          "Mat. 28:16-20",
+          "Jao. 15:12-17"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "TMM/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny TMM/SP",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "june": [
+      {
+        "date": "05–07",
+        "day": "",
+        "title": "🏕️ Isataona Toby SILOAMA Amparihikambana",
+        "color": null,
+        "location": "Toby SILOAMA Amparihikambana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "06",
+        "day": "Sabotsy",
+        "title": "hariva 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "07",
+        "day": "Alahady",
+        "title": "I ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 9:23-24",
+          "Rom. 1:1-17",
+          "Mat. 16:24-27",
+          "Lio. 12:13-21"
+        ],
+        "rakitra": [
+          "F6",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F6",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "12–14",
+        "day": "",
+        "title": "🏕️ Isataona Toby Antohomadinika sy ny Toby Fiaferana",
+        "color": null,
+        "location": "Toby Antohomadinika sy ny Toby Fiaferana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "13–14",
+        "day": "",
+        "title": "🎉 Ivon'ny Fankalazana ny faha-35 taona",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "14",
+        "day": "Alahady",
+        "title": "II manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Isa. 25:6-9",
+          "Rom. 1:18-25",
+          "Lio. 9:51-62",
+          "Lio. 14:25-35"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "Filohan'ny FLM"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🎊 Ivon'ny Fankalazana ny faha-35 taona",
+          "👥 Alahadin'ny FILOHAN'NY FLM",
+          "⏰ Fidirana tokana: 8:30",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "19–21",
+        "day": "",
+        "title": "🏕️ Isataona Toby Fitiavana Ambohimiadana",
+        "color": null,
+        "location": "Toby Fitiavana Ambohimiadana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "19–21",
+        "day": "",
+        "title": "🏕️ Zaikakely FBL/SP Fil. Ambohitsaina",
+        "color": null,
+        "location": "Ambohitsaina",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "21",
+        "day": "Alahady",
+        "title": "III manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Mik. 7:18-20",
+          "Rom. 2:1-16",
+          "Mat. 9:1-13",
+          "Lio. 15:11-24"
+        ],
+        "rakitra": [
+          "FKTLM",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FKTLM",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "28",
+        "day": "Alahady",
+        "title": "IV manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 58:6-12",
+          "Rom. 2:17-29",
+          "Mat. 7:1-6",
+          "Mat. 5:38-42"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "FOFAMA/SB"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FOFAMA/SB",
+          "🎉 Faha-25 taona SEFATEL, FLM 67HA",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "july": [
+      {
+        "date": "04",
+        "day": "Sabotsy",
+        "title": "hariva 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "05",
+        "day": "Alahady",
+        "title": "V manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 16:4-21",
+          "Rom. 3:1-20",
+          "Mat. 16:13-19",
+          "Jao. 1:35-51"
+        ],
+        "rakitra": [
+          "FI",
+          "Raharaha ankapobeny",
+          "Asa samihafa"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FI",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "09–12",
+        "day": "",
+        "title": "🏕️ Zaikakely FSFLM/SP, Arivonimamo",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "12",
+        "day": "Alahady",
+        "title": "VI manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Eks. 20:1-17",
+          "Rom. 3:21-31",
+          "Mat. 5:27-37",
+          "Mat. 5:17-19"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "FD/SP"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny FD/SP",
+          "✨ Asa sy Fampahererezana"
+        ]
+      },
+      {
+        "date": "19",
+        "day": "Alahady",
+        "title": "VII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 31:23-25",
+          "Rom. 4:1-8",
+          "Lio. 14:12-15",
+          "Mat. 16:5-12"
+        ],
+        "rakitra": [
+          "Diakona",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny DIAKONA",
+          "🎉 Jobily Past. RANDRIAMANGASON Nahary Tiana",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "24–26",
+        "day": "",
+        "title": "📅 Isatelovolana Fit. Fenoarivo",
+        "color": null,
+        "location": "Fit",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "26",
+        "day": "Alahady",
+        "title": "VIII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 15:19-21",
+          "Rom. 4:9-25",
+          "Mar. 7:5-15",
+          "Mat. 7:12-14"
+        ],
+        "rakitra": [
+          "Raharaha ankapobe",
+          "Fileovana",
+          "FIPAVA"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FIPAVA",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "august": [
+      {
+        "date": "27",
+        "day": "",
+        "title": "Jul–02 🏕️ Tobilehibe Ankaramalaza",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "02",
+        "day": "Alahady",
+        "title": "IX manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "ITant. 29:10-13",
+          "Rom. 5:1-11",
+          "Lio. 16:10-17",
+          "Lio. 12:42-48"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "FDL/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FDL/SP",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "05–09",
+        "day": "",
+        "title": "🏕️ ZAIKABE FDELM, Fianarantsoa SPAF",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "09",
+        "day": "Alahady",
+        "title": "X manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 7:1-7",
+          "Rom. 5:12-21",
+          "Jao. 6:66-71",
+          "Mat. 11:16-24"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "Tanora Luccea/SOFATAL SP"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny tanora Luccea/SOFATAL SP",
+          "✨ Asa sy Fampahererezana"
+        ]
+      },
+      {
+        "date": "11–16",
+        "day": "",
+        "title": "🏕️ Zaikakely VLM/SP; Fil. Ankatso",
+        "color": null,
+        "location": "Ankatso",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "11–16",
+        "day": "",
+        "title": "🏕️ ZAIKABE FBL, Toliara",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "16",
+        "day": "Alahady",
+        "title": "XI manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "II Sam. 22:21-29",
+          "Rom. 6:1-23",
+          "Mat. 23:1-12",
+          "Mat. 21:28-31"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "SALOMA/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny SALOMA/SP",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "20–26",
+        "day": "",
+        "title": "🏕️ Isataonan'ny Tobilehibe Farihimena",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "23",
+        "day": "Alahady",
+        "title": "XII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 29:18-19",
+          "Rom. 7:1-6",
+          "Jao. 9:24-38",
+          "Mat. 12:33-37"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny",
+          "VLM/SP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny VLM/SP",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "28–30",
+        "day": "",
+        "title": "🏕️ Fihaonambe FANILO/SP Fil. Fahamarinana 67 HA",
+        "color": null,
+        "location": "Fahamarinana",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "29",
+        "day": "",
+        "title": "Aug–02 Sep 📋 FIKEVA",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "30",
+        "day": "Alahady",
+        "title": "XIII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Lev. 18:1-5",
+          "Rom. 7:7-25",
+          "Jao. 13:34-35",
+          "Mat. 5:43-48"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "KTLM/SP"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny KTLM/SP",
+          "📅 Isandroavolana FLM Fidasiana"
+        ]
+      }
+    ],
+    "september": [
+      {
+        "date": "02–06",
+        "day": "",
+        "title": "🏕️ Isataona SP/Anta, Fil. Tanjombato",
+        "color": null,
+        "location": "SP",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "06",
+        "day": "Alahady",
+        "title": "XIV manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 17:13-14",
+          "Rom. 8:1-17",
+          "Lio. 4:23-30",
+          "Jao. 5:1-14"
+        ],
+        "rakitra": [
+          "FBL",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FBL",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "07–11",
+        "day": "",
+        "title": "📋 FIPAVA",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "12",
+        "day": "Sabotsy",
+        "title": "📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "13",
+        "day": "Alahady",
+        "title": "XV manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Deo. 6:4-7",
+          "Rom. 8:18-39",
+          "Mat. 6:19-23",
+          "Lio. 10:38-42"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "FOFAJA/TPLA"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny FOFAJA/TPLA",
+          "✨ Asa sy fampaherezana"
+        ]
+      },
+      {
+        "date": "14–18",
+        "day": "",
+        "title": "🏕️ Isataona Tobilehibe Soatanàna",
+        "color": null,
+        "location": "Tobilehibe Soatan",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "20",
+        "day": "Alahady",
+        "title": "XVI manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Deo. 32:39-40",
+          "Rom. 9:1-13",
+          "Jao. 11:32-45",
+          "Jao. 11:19-29"
+        ],
+        "rakitra": [
+          "Valopy",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny KATEKISTA",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      }
+    ],
+    "october": [
+      {
+        "date": "03",
+        "day": "Sabotsy",
+        "title": "hariva 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "04",
+        "day": "Alahady",
+        "title": "XVIII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Deo. 10:12-21",
+          "Rom. 10:1-13",
+          "Mar. 10:17-27",
+          "Jao. 10:23-38"
+        ],
+        "rakitra": [
+          "F3",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F3",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "09–11",
+        "day": "",
+        "title": "📅 Isatelovolana Fit. Alatsinaina A.",
+        "color": null,
+        "location": "Fit",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "11",
+        "day": "Alahady",
+        "title": "XIX manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 44:21-23",
+          "Rom. 10:14-21",
+          "Lio. 13:10-17",
+          "Jao. 9:1-11"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "Tonia FLM"
+        ],
+        "fandraisana": false,
+        "description": [
+          "👥 Alahadin'ny Tonia FLM",
+          "✨ Asa sy Fampahererezana"
+        ]
+      },
+      {
+        "date": "18",
+        "day": "Alahady",
+        "title": "XX manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 65:1-2",
+          "Rom. 11:1-12",
+          "Mat. 21:33-44",
+          "Mat. 13:44-50"
+        ],
+        "rakitra": [
+          "Valopy",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny MPIASAM-PIANGONANA",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "19–25",
+        "day": "",
+        "title": "📋 KMSL-153",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "22–25",
+        "day": "",
+        "title": "🏕️ Isataona Toby 238",
+        "color": null,
+        "location": "Toby",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "25",
+        "day": "Alahady",
+        "title": "XXI manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Sal. 34:8-10",
+          "Rom. 11:13-24",
+          "Lio. 18:1-8",
+          "Mat. 16:1-4"
+        ],
+        "rakitra": [
+          "Raharaha ankapobe",
+          "Asa samihafa",
+          "FFLET/FAFAFISP"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FFLET/FAFAFISP",
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "31",
+        "day": "Sabotsy",
+        "title": "ANDRON'NY REFORMASIONA",
+        "color": "red",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Gen. 15:1-2",
+          "Efes. 2:1-9",
+          "Mat. 11:25-27"
+        ],
+        "rakitra": [
+          "Raki-Pisaorana",
+          "FBL"
+        ],
+        "fandraisana": true,
+        "description": [
+          "⏰ Fidirana tokana: 8:30",
+          "✍️ Fanambaram-panekena",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "31",
+        "day": "",
+        "title": "Okt–04 Nov 🏕️ Zaikakely FIFIL, Fil. Ambohihao",
+        "color": null,
+        "location": "Ambohihao",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      }
+    ],
+    "november": [
+      {
+        "date": "01",
+        "day": "Alahady",
+        "title": "FETIN'NY FILAZANTSARA",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Deo. 33:1-3",
+          "Apok. 7:13-17",
+          "Lio. 3:20-26",
+          "Mat. 5:13-16"
+        ],
+        "rakitra": [
+          "Rakitra (Alitara): Valopy Pastora",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🙏 Alahady fahatsiarovana ny olona Masina",
+          "👥 Alahadin'ny PASTORA",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "08",
+        "day": "Alahady",
+        "title": "XXII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Dec. 7:9-11",
+          "Rom. 11:25-36",
+          "Mar. 4:21-25",
+          "Mat. 18:15-22"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa",
+          "Asa sy Fampahererezana"
+        ],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "15–22",
+        "day": "",
+        "title": "🏕️ Isataonan'ny Toby BETESDA Ambohibao",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "15",
+        "day": "Alahady",
+        "title": "XXIII manaraka ny TRINITE",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 32:1-8",
+          "I Tim. 2:1-6",
+          "Mat. 17:24-27",
+          "Mar. 12:41-44"
+        ],
+        "rakitra": [
+          "F7",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny F7",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "22",
+        "day": "Alahady",
+        "title": "XXIV manaraka ny Trinite",
+        "color": "green",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 51:9-16",
+          "I Kor. 15:50-58",
+          "Lio. 20:27-40",
+          "Jao. 6:37-40"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "29",
+        "day": "Alahady",
+        "title": "I @ ADVENTO",
+        "color": "purple",
+        "location": "ADVENTO",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Jer. 33:14-18",
+          "Jer. 31:31-34",
+          "Mat. 21:1-9",
+          "Lio. 4:16-22"
+        ],
+        "rakitra": [
+          "Raharaha ankapobeny",
+          "Asa samihafa"
+        ],
+        "fandraisana": false,
+        "description": [
+          "⚠️ PERIKOPA laharana faha-3 no arahina"
+        ]
+      }
+    ],
+    "december": [
+      {
+        "date": "05",
+        "day": "Sabotsy",
+        "title": "hariva 📋 Komitim-pitandremana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "05",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy FANILO",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "06",
+        "day": "Alahady",
+        "title": "II amin'ny ADVENTO",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Mika. 4:1-7",
+          "Isa. 11:1-5",
+          "Lio. 21:25-36",
+          "Lio. 17:20-30"
+        ],
+        "rakitra": [
+          "Rakitra (Alitara): Valopy Pastora",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny PASTORA",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "12",
+        "day": "Sabotsy",
+        "title": "@ 9 ora 🎄 Krismasy FBL/SP Fil. Ambohitsaina",
+        "color": null,
+        "location": "Ambohitsaina",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "12",
+        "day": "Sabotsy",
+        "title": "🎄 Krismasy VLM/SP Faritra Atsinanana",
+        "color": null,
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      },
+      {
+        "date": "13",
+        "day": "Alahady",
+        "title": "III amin'ny ADVENTO",
+        "color": "purple",
+        "location": "",
+        "fidirana": [],
+        "vakiteny": [
+          "Isa. 40:1-10",
+          "Malak. 3:1-4",
+          "Mat. 11:2-10",
+          "Lio. 3:1-6"
+        ],
+        "rakitra": [
+          "Valopy taranak",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🎉 Fetinaina sy famaranana ny 35ème",
+          "⏰ Fidirana iray ihany: 8:30",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "20",
+        "day": "Alahady",
+        "title": "IV amin'ny ADVENTO",
+        "color": "purple",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 2:2-5",
+          "I Pet. 1:10-13",
+          "Jao. 1:19-28",
+          "Jao. 5:31-39"
+        ],
+        "rakitra": [
+          "F4",
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "👥 Alahadin'ny FANILO",
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "25",
+        "day": "Zoma",
+        "title": "KRISMASY I",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isa. 7:10-14",
+          "Heb. 1:1-5",
+          "Jao. 3:16",
+          "Lio. 2:1-14"
+        ],
+        "rakitra": [
+          "Raki-bolafotsy Alitara",
+          "Fanorenana",
+          "Asa samihafa"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🍞 Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "26",
+        "day": "Sabotsy",
+        "title": "KRISMASY II",
+        "color": "red",
+        "location": "",
+        "fidirana": [
+          "6"
+        ],
+        "vakiteny": [
+          "Mika 5:1-3",
+          "Tit. 2:11-14",
+          "Mat. 23:34-39",
+          "Jao. 11:1-14"
+        ],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": [
+          "✝️ Andron'i Stefana maritiora voalohany"
+        ]
+      },
+      {
+        "date": "27",
+        "day": "Alahady",
+        "title": "manaraka ny Noely",
+        "color": "white",
+        "location": "",
+        "fidirana": [
+          "6:30",
+          "10"
+        ],
+        "vakiteny": [
+          "Isaia 11:1-5",
+          "I Pet. 2:4-10",
+          "Lio. 2:33-40",
+          "Lio. 1:68-75"
+        ],
+        "rakitra": [
+          "Asa samihafa",
+          "Raharaha ankapobeny"
+        ],
+        "fandraisana": true,
+        "description": [
+          "🍞 Fiomanana @ Fandraisana ny Fanasan'ny Tompo"
+        ]
+      },
+      {
+        "date": "30–31",
+        "day": "",
+        "title": "🙏 Fampaherezana Mpiandry",
+        "color": null,
+        "location": "Mpiandry",
+        "fidirana": [],
+        "vakiteny": [],
+        "rakitra": [],
+        "fandraisana": false,
+        "description": []
+      }
+    ]
+  }
+}
